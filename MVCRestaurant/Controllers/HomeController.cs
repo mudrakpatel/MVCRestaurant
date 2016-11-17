@@ -15,14 +15,14 @@ namespace MVCRestaurant.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "More details coming soon . . .";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Please keep in touch";
 
             return View();
         }

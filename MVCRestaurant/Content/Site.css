@@ -1,4 +1,12 @@
-﻿body {
+﻿
+/**
+    Google fonts imported
+*/
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase|Indie+Flower|Karla|Merriweather+Sans|Pacifico|Quicksand|Ubuntu');
+/**
+    Other Stylings go below
+*/
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -26,4 +34,18 @@ textarea {
 /*
     Styling for Index.cshtml goes here
 */
-
+.container{
+    background-image:url(../Assets/images/IndexPageWallpaper.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.cafeSocietyText{
+    font-family: 'Pacifico', cursive;
+    font-size:40px;
+    float:left;
+    display:inline;
+}
+.restaurantTextBody{
+    font-family:Verdana, sans-serif;
+    font-size:25px;
+}

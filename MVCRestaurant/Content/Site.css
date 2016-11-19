@@ -4,6 +4,7 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Delius+Unicase|Indie+Flower|Karla|Merriweather+Sans|Pacifico|Quicksand|Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Delius+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 /**
     Other Stylings go below
 */
@@ -35,7 +36,7 @@ textarea {
 /*
     Styling for Index.cshtml goes here
 */
-.container {
+.container.img-responsive{
     background-image: url(../Assets/images/IndexPageWallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,18 +62,7 @@ textarea {
     text-shadow: 1px 1px 5px #35bee4, -1px -1px 5px #41d816;
 }
 
-.linkDecoration {
-    font-size: 18px;
-    font-family: 'Delius Unicase', cursive;
-    color: aliceblue;
-    transition-property: text-shadow;
-    text-decoration: none;
-    margin-bottom: auto;
-    transition-delay: 0.1s;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+.linkDecoration{
+    font-size:23px;
+    font-family:'Russo One', sans-serif;
 }
-
-    .linkDecoration:hover {
-        text-shadow: -5px -5px 1px #ef1fb8;
-    }

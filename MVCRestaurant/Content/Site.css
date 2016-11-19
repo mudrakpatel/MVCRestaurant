@@ -3,6 +3,7 @@
     Google fonts imported
 */
 @import url('https://fonts.googleapis.com/css?family=Delius+Unicase|Indie+Flower|Karla|Merriweather+Sans|Pacifico|Quicksand|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase');
 /**
     Other Stylings go below
 */
@@ -34,18 +35,44 @@ textarea {
 /*
     Styling for Index.cshtml goes here
 */
-.container{
-    background-image:url(../Assets/images/IndexPageWallpaper.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
+.container {
+    background-image: url(../Assets/images/IndexPageWallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*height:490px;
+    width:1920px;*/
 }
-.cafeSocietyText{
+
+.cafeSocietyText {
     font-family: 'Pacifico', cursive;
-    font-size:40px;
-    float:left;
-    display:inline;
+    font-size: 80px;
+    color: white;
+    position: relative;
+    z-index: 1000;
+    text-shadow: 5px 5px 5px #35bee4, -5px -5px 5px #41d816;
 }
-.restaurantTextBody{
-    font-family:Verdana, sans-serif;
-    font-size:25px;
+
+.restaurantTextBody.col-lg-pull-5 {
+    margin-top: 100px;
+    font-family: Verdana,sans-serif;
+    font-size: 40px;
+    color: white;
+    position: center;
+    text-shadow: 1px 1px 5px #35bee4, -1px -1px 5px #41d816;
 }
+
+.linkDecoration {
+    font-size: 18px;
+    font-family: 'Delius Unicase', cursive;
+    color: aliceblue;
+    transition-property: text-shadow;
+    text-decoration: none;
+    margin-bottom: auto;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+    .linkDecoration:hover {
+        text-shadow: -5px -5px 1px #ef1fb8;
+    }

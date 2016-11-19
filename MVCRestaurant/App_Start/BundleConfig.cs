@@ -29,6 +29,8 @@ namespace MVCRestaurant
                       "~/Content/bootstrap.css",
                       "~/Content/bootstrap.min.css",
                       "~/Content/site.css"));
+            BundleTable.EnableOptimizations = true;
+            bundles.UseCdn = true;
         }
     }
 }

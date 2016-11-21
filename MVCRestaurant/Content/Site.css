@@ -36,12 +36,11 @@ textarea {
 /*
     Styling for Index.cshtml goes here
 */
-.container.img-responsive{
+.img-responsive.indexView{
     background-image: url(../Assets/images/IndexPageWallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /*height:490px;
-    width:1920px;*/
+    margin:-15px -10px -10px 0px;
 }
 
 .cafeSocietyText {
@@ -65,4 +64,53 @@ textarea {
 .linkDecoration{
     font-size:23px;
     font-family:'Russo One', sans-serif;
+}
+/**
+    Styling for Contact.cshtml goes here
+*/
+.img-responsive.contactView{
+    background-image: url(../Assets/images/ContactPageWallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:-15px -10px -10px 0px;
+}
+.contactHeadingText{
+    font-family: Verdana,sans-serif,monospace;
+    font-size: 70px;
+    color:white;
+    position: relative;
+    z-index: 1000;
+    text-shadow: 5px 5px 5px #f808f4, -5px -5px 5px #1620d8;
+}
+.img-responsive.facebookIcon{
+    background-image:url(../Assets/images/facebookIcon.png);
+    background-size:cover;
+    height:80px;
+    width:80px;
+    position:fixed;
+}
+.img-responsive.facebookIcon:hover{
+    cursor:pointer;
+}
+.img-responsive.twitterIcon{
+    background-image:url(../Assets/images/twitterIcon.png);
+    background-size:cover;
+    height:80px;
+    width:80px;
+    margin-left:82px;
+    position:fixed;
+}
+.img-responsive.twitterIcon:hover{
+    cursor:pointer;
+}
+.img-responsive.instagramIcon{
+    background-image:url(../Assets/images/instagramIcon.png);
+    background-size:cover;
+    height:80px;
+    width:80px;
+    margin-left:165px;
+    position:fixed;
+}
+.img-responsive.instagramIcon:hover{
+    cursor:pointer;
 }

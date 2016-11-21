@@ -13,16 +13,9 @@ namespace MVCRestaurant.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "More details coming soon . . .";
-
-            return View();
-        }
-
         public ActionResult Contact()
         {
-            ViewBag.Message = "Please keep in touch";
+            ViewBag.Message = "Keep refreshing yourself!";
 
             return View();
         }

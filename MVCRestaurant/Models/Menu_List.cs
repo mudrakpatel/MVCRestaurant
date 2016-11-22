@@ -13,8 +13,9 @@ namespace MVCRestaurant.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ItemId { get; set; }
 
+        [DisplayFormat(DataFormatString = "{0:C0}")]
         [Display(Name = "Price")]
-        public int ItemPrice { get; set; }
+        public float ItemPrice { get; set; }
 
         [Required]
         [Display(Name = "Short Description")]

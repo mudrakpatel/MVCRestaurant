@@ -114,3 +114,17 @@ textarea {
 .img-responsive.instagramIcon:hover{
     cursor:pointer;
 }
+/**
+    Styling for Index.cshtml page for Menu_List view goes here
+*/
+.img-responsive.menuPageWallpaper{
+    background-image:url(../Assets/images/MenuPageWallpaper.jpg);
+    background-repeat: no-repeat;
+    margin:-15px -10px -10px 0px;
+    background-size:cover;
+}
+.col-md-offset-1.menuHeaderText{
+    font-family: 'Quicksand', sans-serif;
+    font-size:50px;
+    color:white;
+}

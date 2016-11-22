@@ -15,7 +15,7 @@ namespace MVCRestaurant.Models
 
         [DisplayFormat(DataFormatString = "{0:C0}")]
         [Display(Name = "Price")]
-        public float ItemPrice { get; set; }
+        public int ItemPrice { get; set; }
 
         [Required]
         [Display(Name = "Short Description")]

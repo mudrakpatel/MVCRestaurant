@@ -25,7 +25,8 @@ namespace MVCRestaurant.Controllers
         {
             if (id == null)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                //return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                id = 1;
             }
             Menu_List menu_List = db.Menu_Lists.Find(id);
             if (menu_List == null)

@@ -186,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\images\ContactPageWallpaper.jpg" />
+    <Content Include="Assets\images\detailsPageWallpaper.jpg" />
     <Content Include="Assets\images\facebookIcon.png" />
     <Content Include="Assets\images\IndexPageWallpaper.jpg" />
     <Content Include="Assets\images\instagramIcon.png" />

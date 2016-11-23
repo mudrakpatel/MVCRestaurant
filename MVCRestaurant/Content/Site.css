@@ -34,7 +34,7 @@ textarea {
 }
 
 /*
-    Styling for Index.cshtml goes here
+    Styling for Index.cshtml page for Home view goes here
 */
 .img-responsive.indexView{
     background-image: url(../Assets/images/IndexPageWallpaper.jpg);
@@ -66,7 +66,7 @@ textarea {
     font-family:'Russo One', sans-serif;
 }
 /**
-    Styling for Contact.cshtml goes here
+    Styling for Contact.cshtml page for Home view goes here
 */
 .img-responsive.contactView{
     background-image: url(../Assets/images/ContactPageWallpaper.jpg);
@@ -135,4 +135,13 @@ textarea {
 }
 th{
     font-size:30px;
+}
+/**
+    Styling for Details.cshtml page for Menu_List view goes here
+*/
+.img-responsive.detailsPageWallpaper {
+    background-image:url(../Assets/images/detailsPageWallpaper.jpg);
+    background-repeat: no-repeat;
+    margin:-15px -10px -10px 0px;
+    background-size:cover;    
 }

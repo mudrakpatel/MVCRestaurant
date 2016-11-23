@@ -23,8 +23,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new {@class = "linkDecoration" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home", new {@class = "linkDecoration" })</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { @class = "linkDecoration" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { @class = "linkDecoration" })</li>
+                    <li>@Html.ActionLink("Menu", "", "Menu_List", new { @class = "linkDecoration" })</li>
                 </ul>
                 @*NOTE: Please DONOT REMOVE the commented Html.Partial() below*@
                 @*@Html.Partial("_LoginPartial")*@
